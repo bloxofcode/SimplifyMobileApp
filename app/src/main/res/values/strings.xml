@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimplifyMobileApp</string>
+    <string name="simplify">Simplify</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign-Up</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="btnlogin">Login</string>
+</resources>
