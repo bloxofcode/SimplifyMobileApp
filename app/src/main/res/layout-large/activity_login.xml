@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.bloxofcode.simplifymobileapp.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="368dp"
+                android:layout_height="308dp"
+                app:srcCompat="@drawable/point_hand"
+                android:id="@+id/imageView"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:text="@string/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvLogin"
+                android:textSize="50sp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:layout_height="90dp"
+                android:layout_width="500dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etUsername"
+                android:background="@drawable/rounded_corner_edittext"
+                android:textSize="50sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:hint="@string/username"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:layout_height="90dp"
+                android:layout_width="500dp"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etPassword"
+                android:background="@drawable/rounded_corner_edittext"
+                android:textSize="50sp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:hint="@string/password"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:textAlignment="center"/>
+
+            <Button
+                android:text="@string/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSignUp"
+                android:background="@null"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:text="@string/forgotpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnForgotPass"
+                android:background="@null"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:background="@drawable/login_button_selector"
+                android:layout_width="500dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:textSize="50sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/btnLogin" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
