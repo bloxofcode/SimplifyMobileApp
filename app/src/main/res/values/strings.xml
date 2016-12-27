@@ -31,7 +31,7 @@
     <string name="sample_file_mimetype">image/png</string>
     <string name="error_deleting_local_file">Downloaded file could not be deleted</string>
 
-    <string name="server_base_url">http://192.168.1.105/owncloud</string>
+    <string name="server_base_url">http://192.168.1.99/owncloud</string>
     <string name="api_username">owncloud</string>
     <string name="api_password">owncloud</string>
     <string name="user_agent">Mozilla/5.0 (Android) ownCloud sample </string>
